@@ -22,12 +22,19 @@ body {
 .site-header {
   text-align: center;
   padding-top: 50px;
+  background-color: #b38b20;
+  color: #fff;
+}
+
+.site-logo {
+  max-width: 150px;
+  margin-bottom: 20px;
 }
 
 .site-title {
-  font-size: 22px;
-  font-weight: 500;
-  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
 }
 
 /* chat window */
@@ -81,7 +88,7 @@ body {
 
 .chat-form button {
   font-size: 18px;
-  background: #000;
+  background: #d3a625;
   color: #fff;
   border: none;
   padding: 12px;
@@ -99,7 +106,7 @@ body {
 }
 
 .chat-form button:hover {
-  background: #666666;
+  background: #b38b20;
 }
 
 .chat-form button:focus {
@@ -122,10 +129,12 @@ body {
 
 /* footer */
 .site-footer {
+  background-color: #b38b20;
+  color: #fff;
+  padding: 20px 0;
   margin: 60px 0 40px;
   text-align: center;
   font-size: 14px;
-  color: #666;
 }
 
 .site-footer nav {
@@ -139,5 +148,5 @@ body {
 }
 
 .site-footer a:hover {
-  color: #666666;
+  color: #fff;
 }
